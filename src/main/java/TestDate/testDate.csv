@@ -1,0 +1,4 @@
+name,xpath,
+anquan_over,"//p[@class='banner-nav-list-title'and text()='安全咨询服务']"
+yuping_click,"//ul[@class='clearfix']/li[1]/a[contains(text(),'安全预评价')]"
+yanshou_click,"//ul[@class='clearfix']/li[2]/a[contains(text(),'安全验收评价')]"
