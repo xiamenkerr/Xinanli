@@ -22,6 +22,7 @@ public class Zhiye_weisheng {
 		
 		//1.职业病危害预评价
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.weihaiyu_pingjia).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);
@@ -34,6 +35,7 @@ public class Zhiye_weisheng {
 		
 		//2.职业病危害控制效果评价
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.weihaikongzhi_pingjia).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);
@@ -46,6 +48,7 @@ public class Zhiye_weisheng {
 		
 		//3.职业病危害现状评价
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.weihaixianzhuang_click).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);
@@ -58,6 +61,7 @@ public class Zhiye_weisheng {
 		
 		//4.职业病危害因素检测
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.weihaiyinsu_click).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);
@@ -70,6 +74,7 @@ public class Zhiye_weisheng {
 		
 		//5.放射卫生检测评价
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.weishengjiance_click).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);
@@ -82,6 +87,7 @@ public class Zhiye_weisheng {
 		
 		//6.职业病危害因素委托检测
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.weituo_click).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);
@@ -94,6 +100,7 @@ public class Zhiye_weisheng {
 		
 		//7.职业病防护设施设计专篇
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.fanghusheji_click).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);

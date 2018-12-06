@@ -2,7 +2,6 @@ package testCase;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
-
 import bannerPage.anquan;
 import bannerPage.baoxian;
 import bannerPage.fengxian;

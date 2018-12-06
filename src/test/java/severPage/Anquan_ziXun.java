@@ -17,21 +17,13 @@ public class Anquan_ziXun {
 		Wait wating=new Wait(driver);
 		MouseOver touch=new MouseOver();
 		SwichWin ff=new SwichWin();
-		//鼠标悬停服务字段
 		touch.over(driver, fuwu.fw);
-		//获取当前窗口的句柄
 		String currentWin = driver.getWindowHandle();
+		
 		//安全托管链接
 		spy.target_xpath(fuwu.anquan_tuoguan).click();
 		Thread.sleep(500);
 		//切换到第二个窗口的句柄
-//		java.util.Set<String> handles=driver.getWindowHandles(); 
-//		for(String i : handles) {	
-//			if (i.equals(currentWin)==false){
-//				driver.switchTo().window(i);
-//				break;
-//				}	
-//			}
 		ff.swich(currentWin, driver);
 		wating.waitForElementPresent(fuwu.anquan_check);
 		WebElement obj=spy.target_xpath(fuwu.anquan_check);
@@ -43,6 +35,7 @@ public class Anquan_ziXun {
 		
 		//安全预评价链接
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(1000);
 		spy.target_xpath(fuwu.anquanyu_pingjia).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);
@@ -55,6 +48,7 @@ public class Anquan_ziXun {
 		
 		//安全验收评价
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(1000);
 		spy.target_xpath(fuwu.anquanyanshou_pingjia).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);
@@ -67,6 +61,7 @@ public class Anquan_ziXun {
 		
 		//安全现状评价
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(1000);
 		spy.target_xpath(fuwu.anquanxianzhuang_pingjia).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);
@@ -79,6 +74,7 @@ public class Anquan_ziXun {
 		
 		//安全生产标准化
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(1000);
 		spy.target_xpath(fuwu.anquanpd_biaozhun).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);
@@ -91,6 +87,7 @@ public class Anquan_ziXun {
 		
 		//重大危险源辨识与评估
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(1000);
 		spy.target_xpath(fuwu.bigdanger).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);
@@ -103,6 +100,7 @@ public class Anquan_ziXun {
 		
 		//安全管理培训
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(1000);
 		spy.target_xpath(fuwu.safemanage_train).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);
@@ -115,6 +113,7 @@ public class Anquan_ziXun {
 		
 		//安全隐患排查
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(1000);
 		spy.target_xpath(fuwu.safeHidden_trouble).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);
@@ -127,6 +126,7 @@ public class Anquan_ziXun {
 		
 		//安全设施设计专篇
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(1000);
 		spy.target_xpath(fuwu.safetyfacilities_design).click();
 		Thread.sleep(1000);
 		ff.swich(currentWin, driver);

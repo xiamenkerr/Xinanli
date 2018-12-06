@@ -94,6 +94,9 @@ public interface fuwu {
 	String shiguyinhuan_check="//div[@class='pro-title']/h1[contains(text(),'生产安全事故隐患排查')]";
 	String biaozhunhua_click="//a[@title='安全生产标准化咨询']";
 	String biaozhunhua_check="//div[@class='pro-title']/h1[contains(text(),'安全生产标准化咨询')]";
+	String pingshen_check="//div[@class='pro-title']/h1[contains(text(),'安全生产标准化评审')]";
+	String bianzhi_check="//div[@class='pro-title']/h1[contains(text(),'生产安全事故应急预案编制')]";
+	String pingjia_check="//div[@class='pro-title']/h1[contains(text(),'安全评价')]";
 	//教育培训
 	String xiaofang_click="//a[@title='消防安全培训']";
 	String xiaofang_check="//div[@class='pro-title']/h1[contains(text(),'消防安全培训')]";

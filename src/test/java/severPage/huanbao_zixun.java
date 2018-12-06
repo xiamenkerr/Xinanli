@@ -22,6 +22,7 @@ public class huanbao_zixun {
 		
 		//1.建设项目环境影响评价
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.jianshexiangmu_click).click();
 		Thread.sleep(500);
 		ff.swich(currentWin, driver);
@@ -34,6 +35,7 @@ public class huanbao_zixun {
 		
 		//2.规划环境影响评价
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.guihua_click).click();
 		Thread.sleep(500);
 		ff.swich(currentWin, driver);
@@ -46,6 +48,7 @@ public class huanbao_zixun {
 		
 		//3.环境监测
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.huanjingjiance_click).click();
 		Thread.sleep(500);
 		ff.swich(currentWin, driver);
@@ -58,6 +61,7 @@ public class huanbao_zixun {
 		
 		//4.企业突发环境事件应急预案
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.yingjiyuan_click).click();
 		Thread.sleep(500);
 		ff.swich(currentWin, driver);
@@ -70,6 +74,7 @@ public class huanbao_zixun {
 		
 		//5.建设项目竣工环境保护验收
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.baohuyanshou_click).click();
 		Thread.sleep(500);
 		ff.swich(currentWin, driver);
@@ -82,6 +87,7 @@ public class huanbao_zixun {
 		
 		//6.环境保护工程设计
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.gongchengsheji_click).click();
 		Thread.sleep(500);
 		ff.swich(currentWin, driver);
@@ -94,6 +100,7 @@ public class huanbao_zixun {
 		
 		//7.新版排污许可证咨询
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.zixun_click).click();
 		Thread.sleep(500);
 		ff.swich(currentWin, driver);
@@ -106,8 +113,9 @@ public class huanbao_zixun {
 		
 		//8.环保税咨询
 		touch.over(driver, fuwu.fw);
+		Thread.sleep(500);
 		spy.target_xpath(fuwu.huanbaoshui_click).click();
-		Thread.sleep(100);
+		Thread.sleep(500);
 		ff.swich(currentWin, driver);
 		wating.waitForElementIsEnable(fuwu.huanbaoshui_check);
 		assertEquals(spy.target_xpath(fuwu.huanbaoshui_check).getText(), "环保税咨询","实际与期望不一致");

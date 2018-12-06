@@ -1,11 +1,11 @@
 package basePage;
 
-import java.io.File;
-import java.io.IOException;
+//import java.io.File;
+//import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.GeckoDriverService;
+//import org.openqa.selenium.firefox.GeckoDriverService;
 
 import Lib.urls;
 
@@ -13,22 +13,21 @@ public class TurnOn_driver {
 	
 	public WebDriver driver;
 	
-	public class process{
-		public GeckoDriverService service;
-		
-		public GeckoDriverService starserv() throws IOException {
-			GeckoDriverService service = new GeckoDriverService.Builder() .usingDriverExecutable
-					(new File("D:\\Program Files\\fox-driver\\geckodriver.exe")).usingAnyFreePort().build();
-		service.start();
-		return service;
-		}
-		
-		public void stopSer() {
-			service.stop();
-		}
-	}
-	
-	process pro=new process();
+//	public class process{
+//		public GeckoDriverService service;
+//		
+//		public GeckoDriverService starserv() throws IOException {
+//			GeckoDriverService service = new GeckoDriverService.Builder() .usingDriverExecutable
+//					(new File("D:\\Program Files\\fox-driver\\geckodriver.exe")).usingAnyFreePort().build();
+//		service.start();
+//		return service;
+//		}
+//		
+//		public void stopSer() {
+//			service.stop();
+//		}
+//	}
+//	process pro=new process();
 	//启动火狐浏览器
 	public WebDriver setupFirfox() throws InterruptedException{
 		

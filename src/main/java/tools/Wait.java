@@ -16,7 +16,7 @@ public class Wait {
 	
 	public void waitForElementPresent( String locator) {
 		try {
-			(new WebDriverWait(driver, timeout)).until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
+			new WebDriverWait(driver, timeout,1).until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
 		} catch (Exception e) {
 			System.out.println("网络太慢啦");
 			// TODO: handle exception
@@ -25,7 +25,7 @@ public class Wait {
 	
 	public void waitForElementIsEnable(String locator) {
 		try {
-			(new WebDriverWait(driver, 10)).until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
+			new WebDriverWait(driver,20,1).until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
 			System.out.println("网络太好啦");
 		} catch (Exception e) {
 			System.out.println("网络太慢啦");
